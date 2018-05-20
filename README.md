@@ -5,7 +5,7 @@ _A portfolio site_ - personalized responsive website that properly displays imag
 In `v.1` verion focused on page layout - the number of boxes and position on the page with:
 1. `HTML5` semantic tags including profer formatting rules
 2. Customized placement of the elements on grid layout page
-3. Customize `CS`S styles
+3. Customize `CSS` styles
 4. Grid-based layout with styles using `flexbox` layout or `Bootstrap' framework.
 5. Responsive to display sizes:
     - Desktop 
