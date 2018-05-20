@@ -1,6 +1,7 @@
 # akbar-the-great
 _A portfolio site_ - personalized responsive website that properly displays images, descriptions, and links.
-***What's the plan?***
+
+### What's the plan?
 In `v.1` verion focused on page layout - the number of boxes and position on the page with:
 1. `HTML5` semantic tags including profer formatting rules
 2. Customized placement of the elements on grid layout page
