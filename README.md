@@ -1,4 +1,4 @@
-# akbar-the-great
+# akbar
 _A portfolio site_ - personalized responsive website that properly displays images, descriptions, and links.
 
 ### What's the plan?

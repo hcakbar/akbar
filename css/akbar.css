@@ -1,0 +1,48 @@
+html, body {
+    max-width: 100%;
+}
+
+/* Header and nav*/
+#header {
+
+}
+
+.header-inner {
+
+}
+
+.top-nav {
+
+}
+
+/* Body sections */
+.body-inner {
+    display: flex;
+}
+
+.sections {
+
+}
+
+.section-one-inner {
+
+}
+
+.section-two-inner {
+
+}
+
+.section-three-inner {
+
+}
+
+
+/* Footer */
+#footer {
+
+}
+
+.footer-inner {
+
+}
+

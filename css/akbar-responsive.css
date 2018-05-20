@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 320px) {
+    .body-inner {
+        background-color: red; /*TODO remove this*/
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 760px) {
+    .body-inner {
+        background-color: blue; /*TODO remove this*/
+    }
+}
+
+@media screen and (min-width: 761px) {
+    .body-inner {
+        background-color: white; /*TODO remove this*/
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .body-inner {
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
