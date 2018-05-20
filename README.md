@@ -13,21 +13,21 @@ In `v.1` verion focused on page layout - the number of boxes and position on the
 6. Images and text renders in all viewport sizes on all three devices
 ### TODOs
 1. Design
-[] Required Elements
-[] Semantic HTML
-[] Custom Design
-[] Grid-Based Layout
+- [ ] Required Elements
+- [ ] Semantic HTML
+- [ ] Custom Design
+- [ ] Grid-Based Layout
 2. Responsiveness
-[] Cross-Device Compatibility
-[] Provide All Content
-[] Viewport meta Tag
-[] Responsive Images
+- [ ] Cross-Device Compatibility
+- [ ] Provide All Content
+- [ ] Viewport meta Tag
+- [ ] Responsive Images
 3. Separation of Concerns
-[] Styles Separated From HTML
-[x] File structure
+- [ ] Styles Separated From HTML
+- [x] File structure
 4. Code Quality
-[] HTML Formatting rules
-[] HTML Style Rules
-[] CSS Formatting Rules
-[] CSS Style Rules
-[] General Meta Rules
+- [ ] HTML Formatting rules
+- [ ] HTML Style Rules
+- [ ] CSS Formatting Rules
+- [ ] CSS Style Rules
+- [ ] General Meta Rules
