@@ -12,6 +12,9 @@ body {
 }
 
 /* Header and nav*/
+#header {
+
+}
 
 .nav-menu {
     background-color: #ffffff;
@@ -36,10 +39,24 @@ body {
     color: #7e8ca29c;
 }
 
-.header-logo {
+.header-logo-lrg {
     float: left;
-    padding-left: 25px;
+    max-width: 200px;
+    max-height: 50px;
 }
+.header-link {
+    float: left;
+    alignment: left;
+    padding: 0;
+}
+
+.header-logo-sml {
+    display: none;
+    float: left;
+    max-width: 200px;
+    max-height: 50px;
+}
+
 .banner {
     display: block;
     width: 100%;
@@ -50,6 +67,25 @@ body {
     width: 100%;
 }
 
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro-name {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0px;
+    color: #c1c1c1;
+}
+
+.intro-desc {
+    font-size: 14px;
+    color: #c1c1c1;
+    padding: 0px;
+}
 
 /* Body sections */
 .content {
