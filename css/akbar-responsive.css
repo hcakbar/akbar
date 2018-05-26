@@ -1,26 +1,43 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-@media screen and (max-width: 320px) {
-    .body-inner {
+
+.bar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .content {
         background-color: red; /*TODO remove this*/
+    }
+
+    .bar-menu {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding: 1em;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 760px) {
-    .body-inner {
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    .content {
         background-color: blue; /*TODO remove this*/
     }
 }
 
-@media screen and (min-width: 761px) {
-    .body-inner {
+@media screen and (min-width: 769px) {
+    .content {
         background-color: white; /*TODO remove this*/
     }
 }
 
-@media screen and (min-width: 1400px) {
-    .body-inner {
-        max-width: 1400px;
+@media screen and (min-width: 1280px) {
+    .content {
+        max-width: 1280px;
         margin-right: auto;
         margin-left: auto;
+        background-color: green; /*TODO remove this*/
     }
 }

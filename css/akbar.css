@@ -1,27 +1,67 @@
 html, body {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif Arial;
+    font-size: 12px;
+    background-color: #ffffff;
 }
 
 /* Header and nav*/
-#header {
 
+.nav-menu {
+    background-color: #ffffff;
+    color: #000000;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0
 }
 
-.header-inner {
-
+.nav-menu > li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 18px;
 }
 
-.top-nav {
-
+.nav-menu > li > a {
+    text-decoration: none;
+    color: #000000;
 }
+
+.nav-menu > li > a:hover {
+    color: #7e8ca29c;
+}
+
+.header-logo {
+    float: left;
+    padding-left: 25px;
+}
+.banner {
+    display: block;
+    width: 100%;
+}
+
+.banner > .banner-image {
+    display: block;
+    width: 100%;
+}
+
 
 /* Body sections */
-.body-inner {
-    display: flex;
+.content {
+
 }
 
 .sections {
 
+}
+
+.main-background-img {
+    width: 100%;
 }
 
 .section-one-inner {
@@ -36,13 +76,85 @@ html, body {
 
 }
 
+/*My works*/
+.works {
+    alignment: center;
+}
+
+.my-work {
+    text-align: center;
+    font-size: 25px;
+    color: #c1c1c1;
+    margin: 25px 0 25px 0;
+}
+
+.projects {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project1 {
+    max-width: 298px;
+    max-height: 400px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
+}
+
+.project1 > p {
+    font-size: 14px;
+    color: #636363;
+    max-width: 250px;
+}
+
+.project1 > h1 {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c1c1c1;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 0 -6px;
+    text-align: center;
+}
+
+.project1-img {
+    max-width: 250px;
+    margin: 15px 0 0 0;
+}
+
+.project1-img:hover {
+    opacity: 0.2;
+    margin-top: 15px;
+}
+
+.project-repo, .project-info {
+    display: none;
+}
 
 /* Footer */
 #footer {
-
+    width: 100%;
+    display: flex;
+    background-color: #c1c1c1;
 }
-
 .footer-inner {
-
+    max-width: 1200px;
 }
 
+.footer-logo {
+    float: left;
+}
+
+.contact-me {
+    max-width: 600px;
+    margin: 20px 10px;
+    padding: 0 5px;
+    list-style: none;
+ }
+
+.contact-me > li {
+    display: block;
+}
