@@ -3,14 +3,12 @@
     flex-wrap: wrap;
 }
 
-
-.bar-menu {
+.menu-icon {
     display: none;
 }
 
-@media screen and (max-width: 480px) {
-    .content {
-        background-color: red; /*TODO remove this*/
+@media screen and (max-width: 700px) {
+    .section-one-inner {
     }
 
     .bar-menu {
@@ -27,25 +25,67 @@
     .header-logo-sml {
         display: inline-block;
     }
-}
 
-@media screen and (min-width: 361px) and (max-width: 768px) {
-    .content {
-        background-color: blue; /*TODO remove this*/
+    .menu-li > a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding: 1em;
+    }
+
+    .menu-icon svg {
+        width: 32px;
+        fill: #c1c1c1;
     }
 }
 
-@media screen and (min-width: 769px) {
-    .content {
-        background-color: white; /*TODO remove this*/
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .nav-menu > li {
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    .header-logo-lrg {
+        float: left;
+        max-width: 160px;
+        max-height: 40px;
+        padding-left: 10px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    .nav-menu > li {
+        padding-right: 15px;
+        font-size: 18px;
+    }
+    .header-logo-lrg {
+        float: left;
+        max-width: 180px;
+        max-height: 50px;
+        padding-left: 15px;
+    }
+    .content {
+
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .nav-menu > li {
+        padding-right: 30px;
+        font-size: 20px;
+    }
+    .header-logo-lrg {
+        float: left;
+        max-width: 200px;
+        max-height: 50px;
+        padding-left: 20px;
+    }
     .content {
         max-width: 1280px;
         margin-right: auto;
         margin-left: auto;
-        background-color: green; /*TODO remove this*/
     }
 }
