@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    min-width: 320px;
 }
 
 body {
@@ -173,24 +174,63 @@ body {
 /* Footer */
 #footer {
     width: 100%;
-    display: flex;
+    min-width: 150px;
     background-color: #C31C1D;
 }
-.footer-inner {
-    max-width: 1200px;
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 100px 20px 100px;
 }
 
-.footer-logo {
-    float: left;
+.contact {
+    padding: 0 0 0 0;
+    margin-right: 50px;
 }
 
 .contact-me {
-    max-width: 600px;
-    margin: 20px 10px;
-    padding: 0 5px;
+    float: left;
+    /*margin-left: 50px;*/
     list-style: none;
- }
+    padding: 0 0 0 0;
+}
 
 .contact-me > li {
-    display: block;
+    display: flex;
+    height: 100%;
+    padding: 0 0 10px 0;
 }
+
+.contact-icon {
+    float: left;
+    width: 36px;
+}
+
+.contact-link {
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.footer-about {
+    padding: 0px 0 0 0;
+    display: block;
+    height: 100%;
+}
+
+.footer-logo {
+    alignment: center;
+    padding: 15px 0 0 0;
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.footer-info {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 0 0 0;
+}
+
