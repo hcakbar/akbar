@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/akbar.css">
     <link rel="stylesheet" type="text/css" href="css/akbar-responsive.css">
-    <script src="js/akbar.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title>akbar$ >_</title>
+    <script src="js/akbar.js"></script>
 </head>
-
+<body>
 <header id="header">
     <div class="header-inner">
         <a href="#" class="header-link"><img class="header-logo-lrg" src="img/logo/logo-akbar-crc.svg"></a>
         <a href="#" class="header-link"><img class="header-logo-sml" src="img/logo/logo-a-crc.svg"></a>
-        <a class="menu-icon">
+        <a class="menu-icon" id="menu-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
             </svg>
         </a>
     </div>
-    <nav class="nav" id="nav">
+    <nav class="nav">
         <ul class="nav-menu">
             <li class="menu-li"><a href="#">ABOUT ME</a></li>
             <li class="menu-li"><a href="#">EXPERIENCE</a></li>
@@ -38,9 +40,9 @@
     </div>
 </div>
 
-<div class="content">
+<main>
     <section class="sections">
-        <div class="section-one-inner">
+        <section class="section-one-inner">
             <h3>Section 1</h3>
             <picture class="my-photo">
             </picture>
@@ -48,121 +50,124 @@
                 Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
                 English to emphasise design elements over content.
             </p>
-        </div>
-    </section>
-    <section class="sections">
-        <div class="section-two-inner">
+        </section>
+        <section class="section-two-inner">
             <h3>TODO Section 2</h3>
             <p>
                 In a professional context it often happens that private or corporate clients corder a publication to be
                 made and presented with the actual content still not being ready.
             </p>
-        </div>
-    </section>
-    <section class="sections">
-        <div class="section-three-inner">
+        </section>
+        <section class="section-three-inner">
             <h3>TODO Section 3</h3>
             <p>
                 In a professional context it often happens that private or corporate clients corder a publication to be
                 made and presented with the actual content still not being ready.
             </p>
-        </div>
+        </section>
+        <section class="works">
+            <div class="my-work"> MY WORK</div>
+            <div class="projects">
+                <div class="project">
+                    <h1>Web Design</h1>
+                    <a href="#"><img class="project-img" src="img/web-design.jpg" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>Responsive Web</h1>
+                    <a href="#"><img class="project-img" src="img/displays.png" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>Pixel Art Maker</h1>
+                    <a href="#"><img class="project-img" src="img/dot-2492077_640.png" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>Memory Game</h1>
+                    <a href="#"><img class="project-img" src="img/memory-game-project.jpg" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>Classic Arcade Game</h1>
+                    <a href="#"><img class="project-img" src="img/game-control.png" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>Restaurant Review</h1>
+                    <a href="#"><img class="project-img" src="img/restaurant-review-app.png" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>A Book Tracking App</h1>
+                    <a href="#"><img class="project-img" src="img/productivity.jpg" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+                <div class="project">
+                    <h1>Neighborhood Map</h1>
+                    <a href="#"><img class="project-img" src="img/map-location.png" alt="projects image"></a>
+                    <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                        of
+                        English to emphasise design elements over content.</p>
+                    <a class="project-repo">TODO project repo link</a>
+                </div>
+            </div>
+        </section>
     </section>
-    <div class="works">
-        <div class="my-work"> MY WORK</div>
-        <div class="projects">
-            <div class="project">
-                <h1>Web Design</h1>
-                <a href="#"><img class="project-img" src="img/web-design.jpg" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="contact-me">
+                <h1>akbar</h1>
+                <h3>Lets build a smart web!</h3>
+                <img class="footer-logo" src="img/footer-log.png" alt="footer logo">
             </div>
-            <div class="project">
-                <h1>Responsive Web</h1>
-                <a href="#"><img class="project-img" src="img/displays.png" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
-            <div class="project">
-                <h1>Pixel Art Maker</h1>
-                <a href="#"><img class="project-img" src="img/dot-2492077_640.png" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
-            <div class="project">
-                <h1>Memory Game</h1>
-                <a href="#"><img class="project-img" src="img/memory-game-project.jpg" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
-            <div class="project">
-                <h1>Classic Arcade Game</h1>
-                <a href="#"><img class="project-img" src="img/game-control.png" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
-            <div class="project">
-                <h1>Restaurant Review</h1>
-                <a href="#"><img class="project-img" src="img/restaurant-review-app.png" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
-            <div class="project">
-                <h1>A Book Tracking App</h1>
-                <a href="#"><img class="project-img" src="img/productivity.jpg" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
-            <div class="project">
-                <h1>Neighborhood Map</h1>
-                <a href="#"><img class="project-img" src="img/map-location.png" alt="projects image"></a>
-                <p> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                    English to emphasise design elements over content.</p>
-                <a class="project-repo">TODO project repo link</a>
-            </div>
+            <ul class="contact-me">
+                <h1>Contact</h1>
+                <li>
+                    <a class="contact-info" href="mailto:hcakbar@gmail.com">hc.akbar@gmail.com</a>
+                </li>
+                <li>
+                    <a class="content-icon" href="https://github.com/hcakbar" target="_blank"><i
+                            class="fa fa-github"></i></a><a alt="" href="https://github.com/hcakbar"
+                                                            class="contact-link">github.com/hcakbar</a>
+                </li>
+                <li>
+                    <a class="content-icon" href="https://linkedin.com/in/hcakbar" target="_blank"><i
+                            class="fa fa-linkedin"></i></a><a alt="linkedin link linkedin.com/in/hcakbar"
+                                                              href="http://linkedin.com/in/hcakbar"
+                                                              class="contact-link">linkedin.com/in/hcakbar</a>
+                </li>
+                <li>
+                    <a class="content-icon" href="https://stackoverflow.com/users/4735659/akbar" target="_blank"><i
+                            class="fa fa-stack"></i></a><a
+                        alt="stack overflow link https://stackoverflow.com/users/4735659/akbar"
+                        href="https://stackoverflow.com/users/4735659/akbar"
+                        class="contact-link">stackoverflow.com/users/4735659/akbar</a>
+                </li>
+            </ul>
         </div>
-    </div>
-</div>
-
-
-<footer id="footer">
-    <div class="footer-inner">
-        <div class="contact-me">
-            <h1>akbar</h1>
-            <h3>Lets build a smart web!</h3>
-            <img class="footer-logo" src="img/footer-log.png" alt="footer logo">
-        </div>
-        <ul class="contact-me">
-            <h1>Contact</h1>
-            <li>
-                <a class="contact-info" href="mailto:hcakbar@gmail.com">hc.akbar@gmail.com</a>
-            </li>
-            <li>
-                <a class="content-icon" href="https://github.com/hcakbar" target="_blank"><i
-                        class="fa fa-github"></i></a><a alt="" href="https://github.com/hcakbar" class="contact-link">github.com/hcakbar</a>
-            </li>
-            <li>
-                <a class="content-icon" href="https://linkedin.com/in/hcakbar" target="_blank"><i
-                        class="fa fa-linkedin"></i></a><a alt="linkedin link linkedin.com/in/hcakbar"
-                                                          href="http://linkedin.com/in/hcakbar"
-                                                          class="contact-link">linkedin.com/in/hcakbar</a>
-            </li>
-            <li>
-                <a class="content-icon" href="https://stackoverflow.com/users/4735659/akbar" target="_blank"><i
-                        class="fa fa-stack"></i></a><a
-                    alt="stack overflow link https://stackoverflow.com/users/4735659/akbar"
-                    href="https://stackoverflow.com/users/4735659/akbar"
-                    class="contact-link">stackoverflow.com/users/4735659/akbar</a>
-            </li>
-        </ul>
-    </div>
-</footer>
+    </footer>
+</main>
 </body>
 </html>
