@@ -11,6 +11,73 @@
     display: block;
 }
 
+/*Use better apprach to handle overlay image on the banner*/
+@media screen and (max-width: 410px) {
+    .intro {
+        top: 15%;
+        left: 50%;
+    }
+
+    .my-image {
+        width: 100px;
+    }
+
+    .intro p {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 699px) {
+    .intro {
+        top: 25%;
+        left: 50%;
+    }
+
+    .my-image {
+        width: 100px;
+    }
+
+    .intro p {
+        font-size: 14px;
+        color: #f1ebeb;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+
+    .intro {
+        top: 30%;
+        left: 50%;
+    }
+
+    .my-image {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+
+    .intro {
+        top: 25%;
+        left: 50%;
+    }
+
+    .my-image {
+        width: 130px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .intro {
+        top: 70%;
+        left: 50%;
+    }
+
+    .my-image {
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .header-logo-lrg {
         display: none;

@@ -19,10 +19,10 @@ In `v.1` verion focused on page layout - the number of boxes and position on the
 - [X] Custom Design
 - [ ] Grid-Based Layout
 2. Responsiveness
-- [ ] Cross-Device Compatibility
-- [ ] Provide All Content
+- [X] Cross-Device Compatibility
+- [X] Provide All Content
 - [X] Viewport meta Tag
-- [ ] Responsive Images
+- [X] Responsive Images
 3. Separation of Concerns
 - [X] Styles Separated From HTML
 - [x] File structure
