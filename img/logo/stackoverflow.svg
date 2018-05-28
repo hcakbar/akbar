@@ -1,1 +1,27 @@
-<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 77.307 74" width="77.307" height="74"><defs><clipPath id="_clipPath_BegWS4TqWq6TTh3pzjYUQaRzgNJ8jQtT"><rect width="77.307" height="74"/></clipPath></defs><g clip-path="url(#_clipPath_BegWS4TqWq6TTh3pzjYUQaRzgNJ8jQtT)"><path d=" M 0 37 C 0 16.579 17.32 0 38.653 0 C 59.987 0 77.307 16.579 77.307 37 C 77.307 57.421 59.987 74 38.653 74 C 17.32 74 0 57.421 0 37 Z " fill="rgb(255,255,255)"/><path d=" M 15.747 41.848 L 20.149 41.891 L 19.995 61.489 L 49.286 61.489 L 49.286 41.962 L 53.924 41.962 L 53.924 66.249 L 15.724 66.249 L 15.747 41.848 L 15.747 41.848 Z " fill="rgb(145,145,145)"/><rect x="22.924" y="53.434" width="22.945" height="4.882" transform="matrix(1,0,0,1,0,0)" fill="rgb(145,145,145)"/><rect x="23.168" y="45.745" width="23.067" height="5.004" transform="matrix(0.995,0.096,-0.096,0.995,4.795,-3.111)" fill="rgb(167,139,104)"/><rect x="24.45" y="37.751" width="23.067" height="5.004" transform="matrix(0.962,0.272,-0.272,0.962,12.287,-8.261)" fill="rgb(193,150,83)"/><rect x="27.989" y="29.086" width="23.067" height="5.004" transform="matrix(0.856,0.517,-0.517,0.856,22.023,-15.884)" fill="rgb(212,140,40)"/><rect x="35.325" y="21.179" width="23.067" height="5.004" transform="matrix(0.582,0.813,-0.813,0.582,38.817,-28.202)" fill="rgb(254,137,8)"/><rect x="45.681" y="17.037" width="23.067" height="5.004" transform="matrix(0.165,0.986,-0.986,0.165,67.057,-40.113)" fill="rgb(255,122,21)"/></g></svg>
+<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
+     viewBox="0 0 77.307 74" width="77.307" height="74">
+    <defs>
+        <clipPath id="_clipPath_BegWS4TqWq6TTh3pzjYUQaRzgNJ8jQtT">
+            <rect width="77.307" height="74"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_BegWS4TqWq6TTh3pzjYUQaRzgNJ8jQtT)">
+        <path d=" M 0 37 C 0 16.579 17.32 0 38.653 0 C 59.987 0 77.307 16.579 77.307 37 C 77.307 57.421 59.987 74 38.653 74 C 17.32 74 0 57.421 0 37 Z "
+              fill="rgb(255,255,255)"/>
+        <path d=" M 15.747 41.848 L 20.149 41.891 L 19.995 61.489 L 49.286 61.489 L 49.286 41.962 L 53.924 41.962 L 53.924 66.249 L 15.724 66.249 L 15.747 41.848 L 15.747 41.848 Z "
+              fill="rgb(145,145,145)"/>
+        <rect x="22.924" y="53.434" width="22.945" height="4.882" transform="matrix(1,0,0,1,0,0)"
+              fill="rgb(145,145,145)"/>
+        <rect x="23.168" y="45.745" width="23.067" height="5.004"
+              transform="matrix(0.995,0.096,-0.096,0.995,4.795,-3.111)" fill="rgb(167,139,104)"/>
+        <rect x="24.45" y="37.751" width="23.067" height="5.004"
+              transform="matrix(0.962,0.272,-0.272,0.962,12.287,-8.261)" fill="rgb(193,150,83)"/>
+        <rect x="27.989" y="29.086" width="23.067" height="5.004"
+              transform="matrix(0.856,0.517,-0.517,0.856,22.023,-15.884)" fill="rgb(212,140,40)"/>
+        <rect x="35.325" y="21.179" width="23.067" height="5.004"
+              transform="matrix(0.582,0.813,-0.813,0.582,38.817,-28.202)" fill="rgb(254,137,8)"/>
+        <rect x="45.681" y="17.037" width="23.067" height="5.004"
+              transform="matrix(0.165,0.986,-0.986,0.165,67.057,-40.113)" fill="rgb(255,122,21)"/>
+    </g>
+</svg>
