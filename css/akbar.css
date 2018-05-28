@@ -115,8 +115,7 @@ body {
 
 /*My works*/
 .works {
-    alignment: center;
-    background-color: #FFFCDE;
+    background-color: #f7f7f5;
 }
 
 .my-work {
@@ -142,6 +141,8 @@ body {
     box-shadow: 0 5px 5px #c1c1c1;
     margin: 20px 10px;
     padding: 0 5px;
+    overflow: hidden;
+    position: relative;
 }
 
 .project > p {
@@ -166,12 +167,54 @@ body {
     margin: 15px 0 0 0;
 }
 
-.project-img:hover {
-    opacity: 0.2;
-    margin-top: 15px;
+/*Hover over image*/
+.project .project-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
 }
 
-.project-repo, .project-info {
+.project:hover .project-info,
+.project.active .project-info {
+    opacity: 1;
+    list-style: none;
+}
+
+.project .accomplishment {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.project .hover-text {
+    font-size: 15px;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+
+.project.active .hover-text {
+    display: block;
+}
+
+project-repo {
     display: none;
 }
 
