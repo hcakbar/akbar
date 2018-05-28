@@ -99,8 +99,8 @@ body {
 .my-image {
     width: 160px;
     border-radius: 100%;
-    alignment: center;
 }
+
 /* Body sections */
 .content {
     background-color: #FEF6D8;
@@ -116,9 +116,11 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
 .sections section {
     margin: 10px 0 10px 0;
 }
+
 .section-header {
     text-align: center;
     font-size: 25px;
