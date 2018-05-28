@@ -11,6 +11,7 @@
     <script src="js/akbar.js"></script>
 </head>
 <body>
+<div>
 <header id="header">
     <div class="header-inner">
         <a href="#" class="header-link"><img class="header-logo-lrg" src="img/logo/logo-akbar-crc.svg"></a>
@@ -23,11 +24,11 @@
     </div>
     <nav class="nav">
         <ul class="nav-menu">
-            <li class="menu-li"><a href="#">ABOUT ME</a></li>
-            <li class="menu-li"><a href="#">EXPERIENCE</a></li>
-            <li class="menu-li"><a href="#">PROJECTS</a></li>
-            <li class="menu-li"><a href="#">RESUME</a></li>
-            <li class="menu-li"><a href="#">CONTACT</a></li>
+            <li class="menu-li"><a href="#ABOUT-ME">ABOUT ME</a></li>
+            <li class="menu-li"><a href="#EXPERIENCES">EXPERIENCES</a></li>
+            <li class="menu-li"><a href="#MY-WORKS">MY WORKS</a></li>
+            <li class="menu-li"><a href="#RESUME">RESUME</a></li>
+            <li class="menu-li"><a href="#CONTACT">CONTACT</a></li>
         </ul>
     </nav>
 </header>
@@ -35,39 +36,32 @@
 <div class="banner">
     <img class="banner-image" src="img/responsive-display.png" alt="responsive display banner image">
     <div class="intro">
-        <img src="img/my-photo.jpg" alt="some photo">
+        <img class="my-image" src="img/logo/work_.png" alt="some photo">
         <p class="intro-name">Akbar</p>
         <p class="intro-desc">Responsive Web Design, HTML, CSS, jQuery</p>
     </div>
 </div>
-
+</div>
 <main>
     <section class="sections">
-        <section class="section-one-inner">
-            <h3>Section 1</h3>
-            <picture class="my-photo">
-            </picture>
+        <section class="about-me"><a name="ABOUT-ME"></a>
+            <div class="section-header">HELLO!</div>
             <p>
-                Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of
-                English to emphasise design elements over content.
+                Web development services are the key ingredients to improve communication between your products or
+                services and users. Building a smart website that is well designed with responsive to any devices in
+                mind can optimize and increase web traffic. </p>
+            <p>I'm <strong>Akbar Chowdhury,</strong> with 10 years experience
+                software development industry, I have decided to enter in web development because it represents to
+                products or services that a business has to offer. Have been passionate in learning new technology and
+                highly interested expand my knowledge in this creative web development.
             </p>
         </section>
-        <section class="section-two-inner">
-            <h3>TODO Section 2</h3>
-            <p>
-                In a professional context it often happens that private or corporate clients corder a publication to be
-                made and presented with the actual content still not being ready.
-            </p>
+        <section class="experiences"><a name="EXPERIENCES"></a>
+            <div class="section-header">MY EXPERIENCES</div>
+            <p></p>
         </section>
-        <section class="section-three-inner">
-            <h3>TODO Section 3</h3>
-            <p>
-                In a professional context it often happens that private or corporate clients corder a publication to be
-                made and presented with the actual content still not being ready.
-            </p>
-        </section>
-        <section class="works">
-            <div class="my-work"> MY WORK</div>
+        <section class="works"><a name="MY-WORKS"></a>
+            <div class="section-header">MY WORK</div>
             <div class="projects">
                 <div class="project">
                     <h1>Web Design</h1>
@@ -77,9 +71,11 @@
                         <div class="accomplishment">
                             <p>HTML skills</p>
                             <p>CSS skills</p>
+                            <a href="https://github.com/hcakbar" target="_blank">
+                                <img class="contact-icon" src="img/logo/Github.svg" alt="github icon"> </img>
+                            </a>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
 
                 <div class="project">
@@ -92,9 +88,11 @@
                             <p>Well Design</p>
                             <p>Responsive</p>
                             <p>Quality Code</p>
+                            <a href="https://github.com/hcakbar" target="_blank">
+                                <img class="contact-icon" src="img/logo/Github.svg" alt="github icon"> </img>
+                            </a>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
                 <div class="project">
                     <h1>Pixel Art Maker</h1>
@@ -107,7 +105,6 @@
                             <p>TODO</p>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
                 <div class="project">
                     <h1>Memory Game</h1>
@@ -120,7 +117,6 @@
                             <p>TODO</p>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
                 <div class="project">
                     <h1>Classic Arcade Game</h1>
@@ -133,7 +129,6 @@
                             <p>TODO</p>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
                 <div class="project">
                     <h1>Restaurant Review</h1>
@@ -146,7 +141,6 @@
                             <p>TODO</p>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
                 <div class="project">
                     <h1>A Book Tracking App</h1>
@@ -159,7 +153,6 @@
                             <p>TODO</p>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
                 <div class="project">
                     <h1>Neighborhood Map</h1>
@@ -172,13 +165,15 @@
                             <p>TODO</p>
                         </div>
                     </div>
-                    <a class="project-repo">TODO Repo link:</a>
                 </div>
             </div>
         </section>
+        <section class="resume"><a name="RESUME"></a>
+            <div class="section-header">RESUME</div>
+        </section>
     </section>
     <footer id="footer">
-        <div class="contact-section">
+        <div class="contact-section"><a name="CONTACT"></a>
             <div class="contact">
                 <ul class="contact-me">
                     <li><a href="mailto:hcakbar@gmail.com"> <img

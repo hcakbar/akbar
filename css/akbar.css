@@ -65,11 +65,13 @@ body {
 .banner {
     display: block;
     width: 100%;
+    background-color: #f9f5f5;
 }
 
 .banner > .banner-image {
     display: block;
     width: 100%;
+    max-height: 100%;
 }
 
 .intro {
@@ -77,56 +79,74 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 0 0 0 0;
 }
 
 .intro-name {
     font-size: 48px;
     font-weight: bold;
-    padding: 0px;
-    color: #c1c1c1;
+    color: #656363;
+    padding: 0 0 0 0;
+
 }
 
 .intro-desc {
     font-size: 14px;
-    color: #c1c1c1;
-    padding: 0px;
+    color: #656363;
+    padding: 0 0 0 0;
 }
 
+.my-image {
+    width: 160px;
+    border-radius: 100%;
+    alignment: center;
+}
 /* Body sections */
 .content {
     background-color: #FEF6D8;
-
+    display: none;
 }
 
 .sections {
+    font-size: 2em;
+    text-align: center;
+    color: #737272;
+    padding: 0 30px 0 30px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sections section {
+    margin: 10px 0 10px 0;
+}
+.section-header {
+    text-align: center;
+    font-size: 25px;
+    color: #797979;
+    padding: 25px 0 25px 0;
 }
 
-.section-one-inner {
-
+/*About me */
+.about-me {
+    background-color: #f1efef;
 }
 
-.section-two-inner {
-
+.about-me p {
+    padding: 0px 100px 0px 100px;
 }
 
-.section-three-inner {
-
+/*My Experiences*/
+.experiences {
+    background-color: #eae8e8;
+    display: none;
 }
 
 /*My works*/
 .works {
-    background-color: #f7f7f5;
-}
-
-.my-work {
-    text-align: center;
-    font-size: 25px;
-    color: #A0A0A0;
-    margin: 25px 0 25px 0;
+    background-color: #dedcda;
 }
 
 .projects {
-    width: 1280px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -148,7 +168,6 @@ body {
 .project > p {
     font-size: 14px;
     color: #636363;
-    /*max-width: 250px;*/
 }
 
 .project > h1 {
@@ -218,17 +237,20 @@ project-repo {
     display: none;
 }
 
+/*My Resume*/
+.resume {
+    background-color: #b9b7b6;
+    display: none;
+}
+
 /* Footer */
 #footer {
-    width: 100%;
-    min-width: 150px;
     background-color: #C31C1D;
 }
 
 .contact-section {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     padding: 30px 100px 20px 100px;
 }
 
