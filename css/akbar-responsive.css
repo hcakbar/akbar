@@ -126,28 +126,34 @@
         fill: #c1c1c1;
     }
 
+    .section-header {
+        padding: 5px 0 5px 0;
+    }
+
+
+    .about-me p {
+        font-size: 14px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    /*My work cards*/
+    .projects {
+        padding: 0 0 10px 0;
+    }
     .project {
-        max-width: 200px;
-        max-height: 320px;
-        border: 1px solid #c1c1c1;;
-        box-shadow: 0 5px 5px #c1c1c1;
-        margin: 20px 10px;
+        max-width: 240px;
+        max-height: 340px;
+        margin: 5px;
         padding: 0 5px;
-        overflow: hidden;
-        position: relative;
     }
 
     .project > p {
         font-size: 13px;
-        color: #636363;
     }
 
     .project > h1 {
         font-size: 14px;
-        font-weight: bold;
-        background-color: #c1c1c1;
-        color: #fff;
-        padding: 10px 0;
+        padding: 5px 0;
         margin: 0 -6px;
         text-align: center;
     }
@@ -155,7 +161,7 @@
     .project-img {
         width: 200px;
         height: 200px;
-        margin: 15px 0 0 0;
+        margin: 10px 0 0 0;
     }
 
 }
