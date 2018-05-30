@@ -11,74 +11,6 @@
     display: block;
 }
 
-/*Use better approach to handle overlay image on the banner*/
-/*Handling image on banner on differnt size viewports*/
-@media screen and (max-width: 410px) {
-    .intro {
-        top: 15%;
-        left: 50%;
-    }
-
-    .my-image {
-        width: 100px;
-    }
-
-    .intro p {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 411px) and (max-width: 699px) {
-    .intro {
-        top: 25%;
-        left: 50%;
-    }
-
-    .my-image {
-        width: 100px;
-    }
-
-    .intro p {
-        font-size: 14px;
-        color: #f1ebeb;
-    }
-}
-
-@media screen and (min-width: 700px) and (max-width: 1023px) {
-
-    .intro {
-        top: 30%;
-        left: 50%;
-    }
-
-    .my-image {
-        width: 120px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1399px) {
-
-    .intro {
-        top: 35%;
-        left: 50%;
-    }
-
-    .my-image {
-        width: 130px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .intro {
-        top: 100%;
-        left: 50%;
-    }
-
-    .my-image {
-        width: 200px;
-    }
-}
-
 /*Responsive*/
 @media screen and (max-width: 700px) {
     .header-logo-lrg {
@@ -164,6 +96,19 @@
         margin: 10px 0 0 0;
     }
 
+    /*Introduction on top banner*/
+    .my-image {
+        width: 80px;
+    }
+
+    .intro-name {
+        font-size: 16px;
+    }
+
+    .intro-desc {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -206,6 +151,11 @@
         max-height: 40px;
         padding-left: 10px;
     }
+
+    /*Introduction on top banner*/
+    .my-image {
+        width: 100px;
+    }
 }
 
 @media screen and (min-width: 801px) and (max-width: 1023px) {
@@ -219,6 +169,19 @@
         max-width: 180px;
         max-height: 50px;
         padding-left: 15px;
+    }
+
+    /*Introduction on top banner*/
+    .my-image {
+        width: 120px;
+    }
+
+    .intro-name {
+        font-size: 18px;
+    }
+
+    .intro-desc {
+        font-size: 16px;
     }
 }
 
@@ -246,4 +209,5 @@
         margin-left: auto;
         margin-right: auto;
     }
+
 }
