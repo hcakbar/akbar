@@ -97,16 +97,20 @@
     }
 
     /*Introduction on top banner*/
+    .intro {
+        top: 30px;
+    }
+
     .my-image {
-        width: 80px;
+        width: 70px;
     }
 
-    .intro-name {
-        font-size: 16px;
-    }
-
-    .intro-desc {
+    .intro h1 {
         font-size: 14px;
+    }
+
+    .intro p {
+        font-size: 12px;
     }
 
 }
@@ -153,8 +157,20 @@
     }
 
     /*Introduction on top banner*/
+    .intro {
+        top: 40px;
+    }
+
     .my-image {
         width: 100px;
+    }
+
+    .intro h1 {
+        font-size: 36px;
+    }
+
+    .intro p {
+        font-size: 16px;
     }
 }
 
@@ -172,16 +188,20 @@
     }
 
     /*Introduction on top banner*/
+    .intro {
+        top: 50px;
+    }
+
     .my-image {
         width: 120px;
     }
 
-    .intro-name {
-        font-size: 18px;
+    .intro h1 {
+        font-size: 48px;
     }
 
-    .intro-desc {
-        font-size: 16px;
+    .intro p {
+        font-size: 18px;
     }
 }
 
@@ -208,6 +228,23 @@
         max-width: 1280px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /*Introduction on top banner*/
+    .intro {
+        top: 100px;
+    }
+
+    .my-image {
+        width: 200px;
+    }
+
+    .intro h1 {
+        font-size: 48px;
+    }
+
+    .intro p {
+        font-size: 18px;
     }
 
 }
