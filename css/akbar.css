@@ -235,6 +235,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.accomplishment > a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 .project .hover-text {
     font-size: 15px;
     margin-top: 5px;
