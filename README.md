@@ -12,7 +12,7 @@ In `v.1.0` verion focused on page layout - the number of boxes and position on t
     - Tablet: Apple iPad
 6. Images and text renders in all viewport sizes on all three devices.
 ### Completion Checklist
-`v.1`
+#### `v.1`
 1. Design
 - [X] Required Elements
 - [X] Semantic HTML
@@ -32,7 +32,7 @@ In `v.1.0` verion focused on page layout - the number of boxes and position on t
 - [X] CSS Formatting Rules
 - [X] CSS Style Rules
 - [X] General Meta Rules
-`v.1.1`
+#### `v.1.1`
 1. Add add contents
 - [ ] Add Experiance section
 - [ ] Add Resume section
