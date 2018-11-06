@@ -1,5 +1,5 @@
 # akbar
-_A portfolio site_ - personalized responsive website that properly displays images, descriptions, and links.
+_A portfolio site_ - personalized responsive website that properly displays images, descriptions, and links in devices: desktops, laptops, tablets, and phones.
 ### What's the plan?
 In `v.1.0` verion focused on page layout - the number of boxes and position on the page with:
 1. `HTML5` semantic tags including profer formatting rules.
