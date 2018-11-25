@@ -152,6 +152,10 @@ body {
     display: none;
 }
 
+.expert-lang {
+    color: #c31c1d;
+}
+
 /*My works*/
 .works {
     background-color: #f9f6f2;
