@@ -114,11 +114,11 @@
     }
 
     .my-image {
-        width: 70px;
+        width: 160px;
     }
 
     .intro h1 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .intro p {
@@ -128,6 +128,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .my-image {
+        width: 120px;
+    }
 
     .contact {
         order: 0;
@@ -157,6 +161,7 @@
     .skill-header img {
         display: none;
     }
+
     .skill-set li {
         width: 100%;
         font-size: 12px;
@@ -181,17 +186,14 @@
         top: 40px;
     }
 
-    .my-image {
-        width: 100px;
-    }
-
     .intro h1 {
         font-size: 36px;
     }
 
     .intro p {
-        font-size: 16px;
+        font-size: 14px;
     }
+
 }
 
 @media screen and (min-width: 801px) and (max-width: 1023px) {
@@ -212,17 +214,17 @@
         top: 50px;
     }
 
-    .my-image {
-        width: 120px;
-    }
-
+    /*.my-image {*/
+    /*width: 120px;*/
+    /*}*/
     .intro h1 {
         font-size: 48px;
     }
 
     .intro p {
-        font-size: 18px;
+        font-size: 20px;
     }
+
 }
 
 @media screen and (min-width: 1001px) {
@@ -255,16 +257,15 @@
         top: 100px;
     }
 
-    .my-image {
-        width: 200px;
-    }
-
+    /*.my-image {*/
+    /*width: 200px;*/
+    /*}*/
     .intro h1 {
         font-size: 48px;
     }
 
     .intro p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
 }
