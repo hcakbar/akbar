@@ -149,9 +149,9 @@ body {
 /*My Skills*/
 .skills {
     background-color: #f3f3f3;
-    padding: 0px 100px 0px 100px;
-    width: 100%;
-
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    width: 1280px;
 }
 .skill-sets {
     margin-right: auto;
@@ -368,6 +368,7 @@ project-repo {
     margin-left: 15px;
     font-size: 18px;
     color: white;
+    font-weight: normal;
 }
 
 .footer-about {
